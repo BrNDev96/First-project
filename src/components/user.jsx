@@ -48,11 +48,11 @@ User.propTypes = {
     _id: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     qualities: PropTypes.array.isRequired,
-    profession: PropTypes.string.isRequired,
+    profession: PropTypes.object.isRequired,
     completedMeetings: PropTypes.number.isRequired,
     rate: PropTypes.number.isRequired,
     onDelete: PropTypes.func.isRequired,
-    bookmark: PropTypes.func.isRequired,
+    bookmark: PropTypes.bool.isRequired,
     onToggleBookmark: PropTypes.func.isRequired
 };
 
